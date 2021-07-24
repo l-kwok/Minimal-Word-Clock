@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.App {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.App .nav-options {
+  width: 250px;
+}
+
+.App .clock-wrapper {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.App .clock-display {
+  font-weight: 800;
+  font-size: 12rem;
+}
+
+.App .numeric-clock-display {
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+.App .clock-display-words {
+  font-weight: 900;
+  font-size: 12rem;
+  line-height: 11rem;
+}
+
+.App .dark {
+  background-color: #242424;
+}
+
+.App .dark p {
+  color: #cccccc;
+}
+
+@media only screen and (max-width: 1000px) {
+  body .App .clock-display-words {
+    font-weight: 900;
+    font-size: 18vw;
+    line-height: 100%;
+  }
+  body .App .clock-display {
+    font-size: 18vw;
+  }
+  body .App .numeric-clock-display {
+    display: none;
+  }
+}
+/*# sourceMappingURL=App.css.map */
